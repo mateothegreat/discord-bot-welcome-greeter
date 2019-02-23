@@ -1,0 +1,29 @@
+{
+    "name": "discord-bot-welcome-greeter",
+    "version": "1.0.0",
+    "description": "Discord Bot that greets users with random messages/questions.",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "keywords": [
+        "discord",
+        "eval",
+        "bot"
+    ],
+    "author": {
+        "email": "matthew@matthewdavis.io",
+        "name": "Matthew Davis",
+        "url": "https://matthewdavis.io"
+    },
+    "homepage": "https://matthewdavis.io",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mateothegreat/discord-bot-welcome-greeter"
+    },
+    "dependencies": {
+        "discord.js": "^11.4.2",
+        "dotenv": "^6.2.0"
+    }
+}
